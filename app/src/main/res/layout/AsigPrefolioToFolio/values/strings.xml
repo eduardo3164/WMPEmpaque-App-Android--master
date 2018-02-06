@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pressToScanFolio">Presione el Boton para Escanear Folio nuevo</string>
+    <string name="typeNewFolio">Escribe el Folio</string>
+    <string name="pressToScanPreFolio">Presione el Boton para Escanear Folios del Preharvest</string>
+    <string name="typeNewPreFolio">Escribe Prefolio</string>
+    <string name="asigPrefolioToFolio">Asignar Prefolio a Folio</string>
+    <string name="atras">Atras</string>
+    <string name="home">Inicio</string>
+</resources>

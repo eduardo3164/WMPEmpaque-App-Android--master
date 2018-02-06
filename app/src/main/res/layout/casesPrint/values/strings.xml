@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="printLabelsPallets">Imprimir etiquetas de cajas</string>
+    <string name="tamanio">Tamaño: </string>
+    <string name="createLabelsCases">Crear Etiquetas de Cajas</string>
+    <string name="casesList">Lista de Codigos de Cajas</string>
+</resources>

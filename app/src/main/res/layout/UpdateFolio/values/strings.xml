@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pressToScan">Presiona para escanear folio</string>
+    <string name="consolidaFolioTitle">Consolidación de Folios</string>
+</resources>

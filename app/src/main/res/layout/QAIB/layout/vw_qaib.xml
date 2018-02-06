@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:id="@+id/btnAtras"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="0.9">
+
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="50dp"
+                        android:src="@drawable/backicon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/atras"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="#f4d101"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:id="@+id/btnHome"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="0.9">
+
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="50dp"
+                        android:src="@drawable/homeicon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Header aligned to top -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="left">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:id="@+id/btnScanUser"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="0.9">
+
+                    <ImageView
+                        android:layout_height="60dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/qr_scan_icon"/>
+
+                    <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ScanUser"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="#f4d101"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:id="@+id/btnScanFolio"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="0.9">
+
+                    <ImageView
+                        android:layout_height="60dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/qr_scan_icon"/>
+
+                    <TextView
+                        android:id="@+id/txtFolio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/scanFolioQA"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!-- Content aligned to Content -->
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header">
+
+        <WebView
+            android:id="@+id/wb_QA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+

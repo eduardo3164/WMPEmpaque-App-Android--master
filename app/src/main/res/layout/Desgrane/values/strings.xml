@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alreadyInDesgrane">Ya estas en Desgrane</string>
+    <string name="folio">Folio: </string>
+    <string name="dateEnterLine">Fecha de Entrada en Linea: </string>
+    <string name="lineName">Nombre de Linea :</string>
+    <string name="plantName">Planta Empaque :</string>
+    <string name="boxesInLine">Cajas En Linea</string>
+    <string name="boxesInPallet">Cajas En Pallet</string>
+    <string name="availableBoxes">Cajas disponibles :</string>
+    <string name="pallet">Pallet: </string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="asignPallet">Asignar Pallet al PrePallet</string>
+    <string name="alertPalletAsign">Los pallets que aparecen en la lista son los que coincidan en la promotion, cajas, sku y tamaño del prepallet selecionado!</string>
+    <string name="PrePalletInfo">Información del Pre Pallet Seleccionado</string>
+    <string name="PalletList">Lista de Pallets</string>
+    <string name="localSavePP">Creación de PrePallets</string>
+    <string name="pressToCreatePP">Presiona el botón para crear un PrePallet</string>
+    <string name="listLocalPrePallets">Lista de PrePallets Locales</string>
+    <string name="codigoQR">Codigo QR:</string>
+    <string name="locationName">Nombre Locacion:</string>
+    <string name="locationType">Tipo locacion:</string>
+</resources>

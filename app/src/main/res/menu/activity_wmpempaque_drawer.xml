@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <item android:id="@+id/nav_qr_manag"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Qr management" />
+    <item android:id="@+id/nav_loc_manag" android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Locations Management" />-->
+
+    <!-- <item android:id="@+id/nav_Prepallet" android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="Pre-Pallet (Cases)" /> -->
+
+   <!--<item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+       android:title="Tools" />-->
+
+    <group android:checkableBehavior="none">
+
+        <item android:title="Empaque" >
+            <menu>
+                <item android:id="@+id/nav_ubication" android:icon="@drawable/ic_place"
+                    android:title="Ubication by Qr" />
+
+                <item android:id="@+id/nav_ubicationMap" android:icon="@drawable/ic_map"
+                    android:title="Mapeo By QR" />
+
+                <item android:id="@+id/nav_InsertLine" android:icon="@drawable/ic_compare_arrows"
+                    android:title="Lineas Empaque" />
+
+                <item android:id="@+id/nav_desgrane" android:icon="@drawable/ic_settings_backup"
+                    android:title="Desgrane en linea" />
+
+                <item android:id="@+id/nav_mermaLinea" android:icon="@drawable/ic_delete"
+                    android:title="Merma en línea" />
+
+                <item android:id="@+id/nav_Asign_PrePallet_Pallet" android:icon="@drawable/ic_content"
+                    android:title="Asignar PrePallets" />
+
+                <item android:id="@+id/nav_printLabels" android:icon="@drawable/ic_print"
+                    android:title="Imprimir Etiquetas de Cajas" />
+            </menu>
+        </item>
+
+        <item android:title="Calidad" >
+            <menu>
+                <item android:id="@+id/nav_QAIB"
+                    android:icon="@drawable/ic_star"
+                    android:title="Calidad Inbound" />
+
+                <item android:id="@+id/nav_Asig_preFolio"
+                    android:icon="@drawable/ic_content"
+                    android:title="Asignar Folio a Prefolio (Full Pre-Harvest)" />
+
+                <item android:id="@+id/nav_ConsolidaFolio"
+                    android:icon="@drawable/ic_blur_on"
+                    android:title="Consolidar Folio" />
+
+                <item android:id="@+id/nav_PesarFolio"
+                    android:icon="@drawable/icon128plus"
+                    android:title="Pesar Folio" />
+
+                <item android:id="@+id/nav_OnHold"
+                    android:icon="@drawable/ic_hourglass"
+                    android:title="On Hold" />
+
+            </menu>
+        </item>
+
+        <item android:title="Configuración" >
+            <menu>
+                <item android:id="@+id/nav_config_impresoras"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Config. de impresoras" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

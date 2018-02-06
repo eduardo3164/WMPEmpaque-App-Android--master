@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="typeNewLine">Digita nueva Linea</string>
+    <string name="scanLine">Escanea la linea al presionar el botón ---></string>
+    <string name="insertLineTitle">Insertar producto a linea</string>
+    <string name="typeSKUInLine">Digita El SKU que esta en la linea</string>
+    <string name="typeBoxes">Digita las cajas</string>
+</resources>

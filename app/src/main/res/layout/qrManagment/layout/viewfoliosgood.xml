@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EDF3DE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="4dp"
+        android:layout_width="fill_parent"
+        android:background="#f4d101"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textSize="25dp"
+            android:text="Folio:"/>
+
+        <TextView
+            android:id="@+id/folio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:text="156-15689"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="125"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Planta" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Inverna" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="HCF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sección" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cajas" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="125"
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayout4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/plant"
+                android:text="Planta" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/inv"
+                android:text="Inverna" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/horaCosechaFin"
+                android:text="HCF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/seccion"
+                android:text="Sección" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/cajasRe"
+                android:text="Cajas" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="#f4d101"/>
+
+        <com.ns.empaque.wmpempaque.UbicationByQr.MyGridView
+            android:id="@+id/gridViewCamposXML"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:columnWidth="200dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btnMerma"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_marginBottom="10dp"
+            android:text="Merma?"/>
+
+        <com.ns.empaque.wmpempaque.UbicationByQr.MyGridView
+            android:id="@+id/gridViewCamposMermaXML"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:columnWidth="200dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

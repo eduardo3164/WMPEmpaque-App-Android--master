@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">WMPEmpaque v 1.34</string>
+    <string name="app_name2">NatureSweet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Principal view -->
+    <string name="alreadyQRManager">Ya estas en Administración de QRs</string>
+    <string name="alreadyLocationManager">Ya estas en Administración de locaciones</string>
+    <string name="alreadyUbicationByQR">Ya estas en ubicación por QR</string>
+    <string name="alreadyTrazability">Ya estas en Trazabilidad</string>
+    <string name="noScan">No se reicibió datos del escaner.</string>
+
+
+    <!-- Locations  -->
+    <string name="addTitleLocation">Agregar locación</string>
+    <string name="addTitleLocationUp">Actualizar locación</string>
+    <string name="name">Nombre</string>
+    <string name="farm">Planta</string>
+    <string name="type">Tipo</string>
+    <string name="typeLoc">Tipo de almacen</string>
+    <string name="content">Contenido</string>
+    <string name="site">Sitio</string>
+    <string name="description">Descripción</string>
+    <string name="active">Activo</string>
+    <string name="available">Disponible?</string>
+    <string name="QRNotExists">El QR no existe!</string>
+    <string name="notContentsType">No hay tipos de contenidos de locacion en la base de datos</string>
+    <string name="notLocationsType">No hay tipos de locacion en la base de datos</string>
+    <string name="notPlants">No hay plantas en la base de datos</string>
+    <string name="syncPlz">Sincronice por favor!</string>
+    <string name="selectFarm">Selecciona planta</string>
+    <string name="selectContentType">Selecciona tipo de contenido</string>
+    <string name="selectLocatType">Selecciona tipo de locación</string>
+    <string name="notLocatToShow">No hay locaciones que mostrar</string>
+    <string name="errorUpdate">Error al actualizar</string>
+    <string name="errorSave">Error al guardar</string>
+    <string name="okUpdate">Actualización exitosa</string>
+    <string name="okSave">Guardado exitoso</string>
+    <string name="fillEverything">Debe llenar todos los datos</string>
+
+    <!-- QR Manager -->
+    <string name="noQRToShow">No hay codigos QR que mostrar</string>
+    <string name="selectQRType">Selecciona el tipo de QR</string>
+    <string name="noQRCode">No existe ese Codigo QR en la base de datos</string>
+
+    <!-- list -->
+    <string name="id">ID</string>
+
+    <!-- QR Manager -->
+    <string name="addTitleQRManager">Agregar código QR</string>
+    <string name="code">Código</string>
+    <string name="data">Dato</string>
+
+    <!-- Trazability -->
+    <string name="addTitleTrazability">Trazabilidad</string>
+
+    <!-- UbicationByQR -->
+    <string name="addTitleUbicationByQR">Ubicación por QR</string>
+    <string name="scanLocation">Presione el botón para escanear Locacion</string>
+    <string name="pushToScan">Presione el botón para escanear el pallet</string>
+
+
+    <string name="errorToRecieveData">Error al recibir los datos</string>
+    <string name="notConex">No hay conexión al webservice. Revise su conexión a internet o contacte al administrador de la aplicación.</string>
+    <string name="keepSaving">¿Desea seguir guardando?</string>
+    <string name="Continue">¿Continuar?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="charging">Cargando...</string>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+
+
+
+
+    <string name="MapTile">Locaciones NS</string>
+    <string name="SpFarms">Plantas</string>
+    <string name="SpLocations">WareHouse</string>
+    <string name="errorReadFarms">No se encontraron plantas, Sincronice por favor</string>
+    <string name="errorReadLocations">No se encontraron Locaciones, Sincronice por favor</string>
+    <string name="readLocat">Escribe un embalaje o presiona el botón para escanear.</string>
+
+</resources>
