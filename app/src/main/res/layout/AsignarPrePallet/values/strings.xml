@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="asignPrepallet">Asignar Prepallet</string>
-    <string name="pressToScanLine">Presione el botón para escanear linea</string>
-    <string name="linea">Linea:  </string>
-    <string name="planta">Planta:</string>
-    <string name="notPallets">No se encuentran Pallets para este PrePallet</string>
-</resources>
